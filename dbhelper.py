@@ -22,7 +22,7 @@ class DBhelper:
 
 
 
-    def addinput(self):
+    def add_input(self):
         connection = self.connect()
 
         try:
@@ -35,7 +35,7 @@ class DBhelper:
 
 
 
-    def clearinput(self):
+    def clear_input(self):
         connection = self.connect()
 
         try:

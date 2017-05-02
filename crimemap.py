@@ -20,7 +20,7 @@ def home():
 def addinput():
     try:
         data=request.args.get('userinput')
-        DB.addinput(data)
+        DB.add_input(data)
 
     except Exception as e:
         print e
@@ -30,7 +30,7 @@ def addinput():
 @app.route('/clear',methods=["GET",'POST'])
 def clearinput():
     try:
-        DB.clearinput()
+        DB.clear_input()
     except Exception as e:
         print e
 
