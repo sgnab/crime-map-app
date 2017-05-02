@@ -22,7 +22,7 @@ class DBhelper:
 
 
 
-    def add_input(self):
+    def add_input(self,data):
         connection = self.connect()
 
         try:
